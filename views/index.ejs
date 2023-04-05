@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--plugins-->
+  <link href="assets/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
+  <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+  <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+  <link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+  <!-- loader-->
+  <link href="assets/css/pace.min.css" rel="stylesheet" />
+  <script src="assets/js/pace.min.js"></script>
+  <!-- Bootstrap CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="assets/css/app.css" rel="stylesheet">
+  <link href="assets/css/icons.css" rel="stylesheet">
+  <!-- Theme Style CSS -->
+  <link rel="stylesheet" href="assets/css/dark-theme.css" />
+  <link rel="stylesheet" href="assets/css/semi-dark.css" />
+  <link rel="stylesheet" href="assets/css/header-colors.css" />
+  <title>DCA Data Explorer</title>
+</head>
+
+<body>
+  <!--wrapper-->
+  <div class="wrapper">
+    <!--sidebar wrapper -->
+    <div class="sidebar-wrapper" data-simplebar="true">
+      <div class="sidebar-header">
+        <div>
+          <img src="assets/images/prosperalogo.png" width="175" alt="Logo Prospera">
+        </div>
+        <div class="toggle-icon ms-auto">
+        </div>
+      </div>
+      <!--navigation-->
+      <ul class="metismenu" id="menu">
+        <li class="menu-label">Main</li>
+        <li>
+          <a href="/">
+            <div class="parent-icon"> <i class="bx bx-home"></i>
+            </div>
+            <div class="menu-title">Home</div>
+          </a>
+        </li>
+
+        <li class="menu-label">Respondents</li>
+        <li>
+          <a href="/demographics">
+            <div class="parent-icon"> <i class="bx bx-user"></i>
+            </div>
+            <div class="menu-title">Demographics</div>
+          </a>
+        </li>
+
+        <li class="menu-label">Digital literacy</li>
+        <li>
+          <a href="/ict-users">
+            <div class="parent-icon"> <i class="bx bx-devices"></i>
+            </div>
+            <div class="menu-title">Digital literacy of ICT users</div>
+          </a>
+        </li>
+        <li>
+          <a href="/ict-professional">
+            <div class="parent-icon"> <i class="bx bx-cloud-download"></i>
+            </div>
+            <div class="menu-title">Digital literacy of ICT professional</div>
+          </a>
+        </li>
+
+        <li class="menu-label">Institutional Capability</li>
+        <li>
+          <a href="/digital-infrastructure">
+            <div class="parent-icon"> <i class="bx bx-hive"></i>
+            </div>
+            <div class="menu-title">Digital infrastructure</div>
+          </a>
+        </li>
+        <li>
+          <a href="/digital-culture">
+            <div class="parent-icon"> <i class="bx bx-building"></i>
+            </div>
+            <div class="menu-title">Digital culture and work environment</div>
+          </a>
+        </li>
+      </ul>
+      <!--end navigation-->
+    </div>
+    <!--end sidebar wrapper -->
+    <!--start header -->
+    <header>
+      <div class="topbar d-flex align-items-center">
+        <nav class="navbar navbar-expand gap-3">
+          <div class="mobile-toggle-menu"><i class='bx bx-menu'></i>
+          </div>
+
+          <div class="position-relative d-lg-block d-none">
+            <h4>DCA Data Explorer</h4>
+          </div>
+
+
+          <div class="top-menu ms-auto">
+            <ul class="navbar-nav align-items-center gap-1">
+
+              <li class="nav-item">
+                <a class="nav-link position-relative" href="#" aria-expanded="false">
+                  <i class='bx bx-envelope'></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--end header -->
+    <!--start page wrapper -->
+    <div class="page-wrapper">
+      <div class="page-content">
+        <div class="card radius-10">
+          <div class="card-header">
+            <div class="d-flex align-items-center">
+              <div>
+                <h6 class="mb-0">Recent Orders</h6>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            Content here
+          </div>
+        </div>
+
+        <!--end row-->
+
+      </div>
+    </div>
+    <!--end page wrapper -->
+    <!--start overlay-->
+    <div class="overlay toggle-icon"></div>
+    <!--end overlay-->
+    <!--Start Back To Top Button-->
+    <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
+    <!--End Back To Top Button-->
+    <footer class="page-footer">
+      <p class="mb-0">Copyright © 2023 Prospera. All right reserved.</p>
+    </footer>
+  </div>
+  <!--end wrapper-->
+
+  <!-- Bootstrap JS -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!--plugins-->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+  <script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+  <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+  <script src="assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js"></script>
+  <script src="assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js"></script>
+  <script src="assets/plugins/chartjs/js/chart.js"></script>
+  <script src="assets/js/index.js"></script>
+  <!--app JS-->
+  <script src="assets/js/app.js"></script>
+  <script>
+    new PerfectScrollbar(".app-container")
+  </script>
+</body>
+
+</html>
